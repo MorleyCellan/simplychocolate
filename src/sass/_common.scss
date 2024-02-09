@@ -12,10 +12,13 @@ html {
 
 img {
   display: block;
+  width: 100%;
+  height: auto;
 }
 
 a {
   text-decoration: none;
+  color: currentColor;
 }
 
 button {
@@ -25,4 +28,24 @@ button {
 ul,
 ol {
   list-style: none;
+}
+
+:root {
+  --primary-font-family: 'Montserrat', sans-serif;
+
+  --primary-text-color: #111;
+  --primary-background-color: #fafafa;
+  --secondary-background-color: #1e1823;
+  --accent-color: #fd9222;
+  --white-color: #ffffff;
+}
+
+body {
+  font-style: var(--primary-font-family);
+  color: var(--primary-text-color);
+  background-color: var(--primary-background-color);
+}
+
+.container {
+  margin: 0 auto;
 }

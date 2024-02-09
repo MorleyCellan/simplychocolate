@@ -1,3 +1,54 @@
 .nav-container {
-  display: inline-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 23px;
+}
+
+.link-logo p {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px; /* 111.111% */
+  letter-spacing: -0.54px;
+  text-transform: uppercase;
+
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.link-logo span {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 20px; /* 111.111% */
+  letter-spacing: -0.54px;
+}
+
+.link-logo svg {
+  fill: white;
+}
+
+.menu-list {
+  display: flex;
+  gap: 24px;
+}
+
+.menu-item {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 114.286% */
+  letter-spacing: -0.28px;
+}
+
+.social-list {
+  display: flex;
+  gap: 18px;
+}
+
+.social-list svg {
+  stroke: #111;
+  fill: white;
 }

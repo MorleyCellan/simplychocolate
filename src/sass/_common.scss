@@ -46,6 +46,12 @@ body {
   background-color: var(--primary-background-color);
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+}
+
 .container {
   margin: 0 auto;
   width: 1136px;

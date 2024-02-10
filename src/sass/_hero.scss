@@ -1,0 +1,77 @@
+.hero-container {
+  height: 621px;
+  background: linear-gradient(
+      180deg,
+      rgba(17, 17, 17, 0) 0%,
+      rgba(17, 17, 17, 0.4) 100%
+    ),
+    url(../images/hero/choco-bg.jpg),
+    lightgray -435.077px -7.879px / 282.839% 101.752% no-repeat;
+
+  border-radius: 18px;
+
+  display: flex;
+  align-items: flex-end;
+}
+
+.hero-content {
+  display: flex;
+  width: 295px;
+  height: 205px;
+  margin: 0 auto 21px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  flex-shrink: 0;
+}
+
+.hero-title {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: -0.6px;
+}
+
+.hero-buttons {
+  width: 100%;
+  display: flex;
+  gap: 14px;
+  flex-direction: row;
+}
+
+.hero-anchor a {
+  display: flex;
+  flex-direction: row;
+}
+
+.primary-button {
+  padding: 12px 28px;
+  position: relative;
+  border-radius: 100px;
+  background-color: var(--accent-color);
+  color: var(--white-color);
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-color: transparent;
+}
+
+.secondary-button {
+  border-radius: 100px;
+  color: var(--white-color);
+
+  border: 1px solid var(--white-color);
+  width: 159px;
+  height: 41px;
+  //   padding: 12px 28px;
+
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}

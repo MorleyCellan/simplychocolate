@@ -2,20 +2,20 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://MorleyCellan.github.io/SimplyChocolate",
+  "homepage": "https://MorleyCellan.github.io/simplychocolate",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /SimplyChocolate/"
+    "build": "parcel build src/*.html --public-url /simplychocolate/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MorleyCellan/SimplyChocolate.git"
+    "url": "git+https://github.com/MorleyCellan/simplychocolate.git"
   },
   "keywords": [],
   "author": "Morley Cellan <morleycellan@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/SimplyChocolate/issues"
+    "url": "https://github.com/goitacademy/simplychocolate/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"

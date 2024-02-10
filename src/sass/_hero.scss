@@ -45,6 +45,8 @@
 .hero-anchor a {
   display: flex;
   flex-direction: row;
+  gap: 12px;
+  align-items: center;
 }
 
 .primary-button {
@@ -74,4 +76,14 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+
+.hero-anchor p {
+  color: var(--white-color);
+
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px; /* 116.667% */
+  letter-spacing: -0.36px;
 }

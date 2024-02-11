@@ -1,12 +1,10 @@
 .advantages-section {
   background-color: var(--secondary-background-color);
-  height: 758px;
-
-  padding: 20px auto;
+  min-height: 758px;
 }
 
 .advantages-container {
-  margin: 20px auto;
+  // margin: 20px auto;
 }
 
 .advantages-list {
@@ -16,7 +14,9 @@
 
   color: var(--white-color);
 
-  width: 335px;
+  max-width: 335px;
+
+  margin: 20px auto;
 }
 
 .advantage-item {

@@ -53,11 +53,10 @@ main {
 }
 
 .container {
-  margin: 0 auto;
-  width: 1136px;
+  margin: 0 20px;
 }
 
-@media screen and (min-width: 50px) {
+@media screen and (min-width: 375px) {
   .container {
     margin: 0 auto;
     width: 335px;

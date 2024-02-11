@@ -20,7 +20,7 @@
   letter-spacing: -0.6px;
   text-transform: uppercase;
 
-  width: 283px;
+  max-width: 283px;
   margin: 0 auto 24px;
 }
 
@@ -38,7 +38,7 @@
 }
 
 .component-item {
-  width: 335px;
+  max-width: 335px;
   height: 270px;
   border-radius: 15px;
   background: var(--accent-color);
@@ -50,7 +50,7 @@
 }
 
 .component-item img {
-  width: 224px;
+  max-width: 224px;
   height: 171px;
 
   margin: 0 auto 25px;
